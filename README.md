@@ -4,7 +4,7 @@ Way down deep, past the abstraction of Ruby, data you don't write to your hard d
 
 Eventually, every program on your system has to _pre-allocate_ the memory it wants to use. It can't say "give me an array with room for 8 elements, but I might need more later."
 
-In other words, behind the scenes, are no dynamically sized arrays. True arrays are just chunks of memory that you have to explicitly carve out of your system memory. They are a fixed size; you say how big they are up front and that's all you get. This is very different from the pseudo-arrays you're used to in Ruby or Javascript!
+In other words, behind the scenes, there are no dynamically sized arrays. True arrays are just chunks of memory that you have to explicitly carve out of your system memory. They are a fixed size; you say how big they are up front and that's all you get. This is very different from the pseudo-arrays you're used to in Ruby or Javascript!
 
 ## Why is this important?
 
