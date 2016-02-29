@@ -1,4 +1,4 @@
-require_relative 'fixed_array'
+require_relative '../fixed_array'
 
 describe FixedArray do
   describe "#new" do
