@@ -27,7 +27,3 @@ class FixedArray
     @size.times { |x| @array[x] = rand(20) }
   end
 end
-
-array = FixedArray.new(rand(50))
-array.fill_array
-array.get(array.size+3)
